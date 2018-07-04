@@ -3,7 +3,7 @@ class Backer
 
   @@all = []
 
-  def initialize
+  def initialize(name)
     @name = name
     back_project = []
     @@all = @name
