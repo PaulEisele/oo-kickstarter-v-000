@@ -8,7 +8,7 @@ class Backer
     back_project = []
     @@all = @name
   end
-  
+
   def self.all
     @@all
   end
